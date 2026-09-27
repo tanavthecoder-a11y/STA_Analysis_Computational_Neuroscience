@@ -1,7 +1,7 @@
 Python 
 
 # Path to dataset (ensure the .pickle file is in the same directory as this script)
-DATASET_PATH = "c1p8_data.pickle"
+DATASET_PATH = r"c1p8_data.pickle"
 
 #load dataset
 import numpy as np
@@ -44,5 +44,5 @@ plt.axhline(0, color='gray', linestyle='--')
 plt.xlabel('Time preceding spike (ms)')
 plt.ylabel('Average Stimulus (velocity)')
 plt.title('Spike-Triggered Average (STA)')
-plt.grid(true)
+plt.grid(True)
 plt.show()
